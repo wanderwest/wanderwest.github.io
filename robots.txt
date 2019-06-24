@@ -1,0 +1,4 @@
+Sitemap: http://www.wanderwest.nz/sitemapindex.xml
+
+User-Agent: *
+Host: www.wanderwest.nz
