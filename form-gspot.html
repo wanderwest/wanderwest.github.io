@@ -69,18 +69,16 @@
                   <input name="entry.1819717933" id="entry.1819717933" type="text"><br>
                   Date you wish to walk (day-month-year) eg 02-Sep-2023<br>
                   <input name="entry.597775739" id="entry.597775739" type="text"><br>
-  <input type="submit" value="Submit">
-</form>
-
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
+                  <input value="Submit" type="submit"> </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                  onload="if(submitted) {}"></iframe>
+                <script src="posts/assets/js/jquery.min.js"></script>
+                <script type="text/javascript">var submitted=false;</script>
+                <script type="text/javascript">
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
   $('#gform').prepend('Your submission has been processed...');
   });
-</script>
 </script><br>
                 <div align="center"> <br>
                   <p style="margin-bottom: 0cm; line-height: 100%" align="left"><font
